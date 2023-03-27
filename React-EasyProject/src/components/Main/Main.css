@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Inter&display=swap');
+.general{
+    background-color: rgba(35, 37, 44, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 100%;
+ }
+.container{
+    color: rgba(255, 255, 255, 1);
+    background-color:rgba(26, 27, 33, 1);
+    width: 317px;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    .part1{
+        width: 317px;
+        height: 399px;
+    }
+    .name{
+        text-align: center;
+    }
+    .media{
+        display: flex;
+      justify-content: space-evenly;
+    }
+    .btn1{
+        border: 1px solid;
+        background-color: rgba(209, 213, 219, 1);
+        border-radius: 6px;
+        width: 115px;
+        height: 34px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .btn2{
+        background: rgba(80, 147, 226, 1);
+        border-radius: 6px;
+        width: 115px;
+        height: 34px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .info{
+       display: flex;
+       flex-direction: column;
+      align-items: center;
+
+    }
+  .details{
+    width:80%;
+ display: flex;
+ flex-direction: column;
+ font-family: Inter;
+ font-size: 10px;
+ font-weight: 400;
+ line-height: 15px;
+ letter-spacing: 0em;
+ text-align: left;
+
+  }
+  .part2{
+    width: 317px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(22, 22, 25, 1);
+    ;
+       }
+.contacts{
+width: 70%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
